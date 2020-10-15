@@ -1895,7 +1895,7 @@ layer {
   bottom: "mbox_priorbox"
   top: "detection_out"
   include {
-    phase: TEST
+    phase: TESTS
   }
   detection_output_param {
     num_classes: 21
